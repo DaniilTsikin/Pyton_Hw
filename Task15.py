@@ -5,6 +5,6 @@ def sum(f_term, s_term):
         return (f_term)
     if (s_term != 0):
         return (sum(f_term + 1, s_term - 1))
-f_term = int(input("Введите число: "))
-s_term = int(input("Введите его степень: "))
-print("Результат возведения в степень равен:", sum(f_term, s_term))
+f_term = int(input("Введите первое слогаемое: "))
+s_term = int(input("Введите второе слогаемое: "))
+print("Результат их сложения равен:", sum(f_term, s_term))
